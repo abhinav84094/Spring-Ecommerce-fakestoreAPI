@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import io.github.cdimascio.dotenv.Dotenv;
 import io.github.cdimascio.dotenv.DotenvEntry;
 
-
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"Controllers"})
 public class FakeStoreApiCruDoperationApplication {
 
 	public static void main(String[] args) {
